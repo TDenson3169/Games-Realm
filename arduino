@@ -1,0 +1,8 @@
+/my-website
+  /index.html          // Login page
+  /games.html          // Games page
+  /chat.html           // Chat page
+  /styles.css          // Global styles
+  /script.js           // JavaScript for interactivity
+  /games.js            // Game logic
+  /chat.js             // Chat room logic (simple mock)
