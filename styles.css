@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.chat-container {
+  width: 400px;
+  max-width: 90%;
+}
+
+.games-container {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+}
